@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
   title: '0day.is',
   subtitle: 'Logue',
   lang: 'en',
-  themeHue: 250,
+  themeHue: 300,
   banner: {
     enable: true,
     src: 'assets/images/Logomiyako.png',

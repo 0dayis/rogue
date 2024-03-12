@@ -7,13 +7,13 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
+  title: '0day.is',
+  subtitle: 'Logue',
   lang: 'en',
   themeHue: 250,
   banner: {
-    enable: false,
-    src: 'assets/images/demo-banner.png',
+    enable: true,
+    src: 'assets/images/Logomiyako.png',
   },
 }
 
@@ -23,32 +23,37 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
+      name: 'Telegram',
+      url: 'https://t.me/is0day/',
+      external: true,
+    },
+    {
       name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/0dayis/',
       external: true,
     },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/rebecca_avatar.png',
+  name: 'mel0n',
+  bio: 'Night City civilian',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Telegram',
+      icon: 'fa6-brands:telegram',
+      url: 'https://t.me/unittype',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/nonnil',
+    },
+    {
+      name: 'Mail',
+      icon: 'material-symbols:mail',
+      url: 'mailto:mel0n@0day.is',
     },
   ],
 }

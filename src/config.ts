@@ -15,6 +15,9 @@ export const siteConfig: SiteConfig = {
     enable: true,
     src: 'assets/images/Logomiyako.png',
   },
+  thumbnail: {
+    src: 'assets/images/thumbnail.png',
+  }
 }
 
 export const navBarConfig: NavBarConfig = {

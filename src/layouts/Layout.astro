@@ -61,6 +61,13 @@ if (title) {
 	pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`;
 }
 
+let thumbnail;
+if (thumbnail) {
+	thumbnail = thumbnail;
+} else {
+	thumbnail = siteConfig.thumbnail;
+}
+
 ---
 
 <!DOCTYPE html>
@@ -78,7 +85,7 @@ if (title) {
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="0day.is - Logue">
 		<meta property="og:description" content="Logue of 0day.is">
-		<meta property="og:image" content="assets/images/thumbnail.png">
+		<meta property="og:image" content={thumbnail}>
 
 		<!-- Twitter Meta Tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -86,7 +93,7 @@ if (title) {
 		<meta property="twitter:url" content="https://0day.is">
 		<meta name="twitter:title" content="0day.is - Logue">
 		<meta name="twitter:description" content="Logue of 0day.is">
-		<meta name="twitter:image" content="assets/images/thumbnail.png">
+		<meta name="twitter:image" content={thumbnail}>
 
 		<link rel="icon" href="/favicon/favicon-32.png" sizes="32x32">
 		<link rel="icon" href="/favicon/favicon-128.png" sizes="128x128">

@@ -9,6 +9,9 @@ export type SiteConfig = {
     enable: boolean
     src: string
   }
+  thumbnail: {
+    src: string
+  }
 }
 
 export enum LinkPreset {

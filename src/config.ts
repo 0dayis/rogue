@@ -53,7 +53,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Mail',
       icon: 'material-symbols:mail',
-      url: 'mailto:mel0n@0day.is',
+      url: 'mailto:supp@0day.is',
     },
   ],
 }

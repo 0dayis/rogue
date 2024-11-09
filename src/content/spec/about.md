@@ -5,6 +5,7 @@ For offensive purpose only.
 > - Keio Uni B2
 
 > ### 💼 Work
+> - KAI-YOU inc.
 > - Secret, may be announced later
 
 > ### 💁‍♀️ also known as

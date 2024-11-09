@@ -6,7 +6,7 @@ For offensive purpose only.
 
 > ### 💼 Work
 > - KAI-YOU inc. Back-End Engineer (02/2024 - 06/2024)
-> - Secret, may be announced later
+> - 株式会社スーパーハムスター Engineer (10/2024 - )
 
 > ### 💁‍♀️ also known as
 > - nil

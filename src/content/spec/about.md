@@ -2,7 +2,7 @@
 For offensive purpose only.
 
 > ### 🎓 Education
-> - Keio Uni B2
+> - Keio University B2
 
 > ### 💼 Work
 > - KAI-YOU inc. Back-End Engineer (02/2024 - 06/2024)
